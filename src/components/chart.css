@@ -1,0 +1,23 @@
+.doughnut{
+height: 294px;
+width: 500px;
+margin: 0 auto;
+}
+.bar{
+height: 296px;
+width: 65%;
+margin: 0 auto;
+}
+@media (max-width: 770px) {
+    .doughnut{
+    height: 316px;
+    width: 278px;
+    margin: 0 auto;
+    }
+    .bar{
+    height: 251px;
+    width: 98%;
+    margin: 0 auto;
+    }
+    
+}

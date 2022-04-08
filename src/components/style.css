@@ -1,0 +1,34 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.Totalinfected{
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+.card{
+    margin: 28px 2% !important;
+}
+.Newinfected{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+.Totaldeaths{
+    border-bottom: 10px solid rgba(243, 239, 21, 0.63);
+}
+.Newdeaths{
+    border-bottom: 10px solid rgba(37, 3, 3, 0.5);
+}
+.Totalinfected:hover, .Newinfected:hover, .Totaldeaths:hover, .Newdeaths:hover{
+    box-shadow: 18px 30px 18px -8px rgba(65, 46, 46, 0.3);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    transform: scale(1.05, 1.05);
+}
+
+@media (max-width: 770px) {
+    .container{
+        margin: 0 8%;
+    }
+    
+}
